@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test
-  description: onload="alert(1)" <img/src=x onerror="alert(2)" onmouseover="alert(3)"> <a href="https://synack.com">click go to synack</a>
+  description: onload="alert(1)" <img/src=x onerror="alert(2)" onmouseover="alert(3)"> <a href="https://www.synack.com">click go to synack</a>
 paths:
   /:
     get:
